@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Flames</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<section>
+			<div class="def">
+				<h4>
+					FLAMES is a game named after the acronym:
+					<span>Friends, Lovers, Angry, Marriage, Enemies, Siblings</span>. It
+					is a popular game among young girls at sleepovers, especially with
+					pre-teens and teens who are beginning to explore the world of crushes.
+				</h4>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col col1">
+						<form
+							id="myForm"
+							action="index.html"
+							onsubmit="myFunction(); reset(); return false;"
+						>
+							<div class="item item1">
+								<div>FLAMES</div>
+							</div>
+							<div class="item">
+								<input
+									type="text"
+									id="yourname"
+									placeholder="Enter your name"
+									required
+								/>
+							</div>
+							<div class="item">
+								<input
+									type="text"
+									id="crushname"
+									placeholder="Enter your crush's name"
+									required
+								/>
+							</div>
+
+							<input type="submit" id="button" value="GO" />
+						</form>
+					</div>
+					<div class="col col2">
+						<div class="right-area">
+							<div class="flames">
+								<div class="f">F</div>
+								<div class="l">L</div>
+								<div class="a">A</div>
+								<div class="m">M</div>
+								<div class="e">E</div>
+								<div class="s">S</div>
+							</div>
+							<div class="result">
+								<div id="result"></div>
+							</div>
+							<div class="memes">
+								<img src="" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="js/script.js"></script>
+	</body>
+</html>
