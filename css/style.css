@@ -62,6 +62,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     margin-right: 20px;
+    margin-top: 30px;
 }
 
 .col2 {
@@ -85,7 +86,7 @@ body {
     width: 400px;
     padding: 50px;
     border-radius: 10px;
-    background: #e37373;
+    background: #f5948e;
     margin-bottom: 20px;
 }
 
@@ -121,9 +122,12 @@ body {
     font-size: 1rem;
     text-align: center;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     color: #fff7d6;
-    font-size: 20px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #button:hover {
@@ -143,7 +147,7 @@ input:focus {
 
 .flames {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -152,13 +156,13 @@ input:focus {
     /* height: 80px;
     background: #00c6b0;
     text-align: center; */
-    background: #bfcbc2;
+    background: #f5948e;
     width: 100px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
-    color: #eb1724;
+    color: #ddd9d9;
     font-weight: 700;
 }
 
